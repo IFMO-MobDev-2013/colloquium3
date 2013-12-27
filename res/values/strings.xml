@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tasks Manager 1.0</string>
+    <string name="addmarkbutton">+</string>
+    <string name="defaultsubjectname">New task</string>
+    <string name="savebutton">Save</string>
+    <string name="deletebutton">Delete</string>
+    <string name="addsubjectbutton">Add new subject</string>
+    <string name="defaultmarkname">New subtask</string>
+    <string name="subjectnamelabel">Name</string>
+    <string name="marknamelabel">Name</string>
+    <string name="subtaskstypelabel">Type</string>
+    <string name="subjectsheaderlabel">List of tasks</string>
+    <string name="markseditheaderlabel">Subtask edit</string>
+    <string-array name="types_array">
+        <item>High</item>
+        <item>Normal</item>
+        <item>Done</item>
+    </string-array>
+</resources>
