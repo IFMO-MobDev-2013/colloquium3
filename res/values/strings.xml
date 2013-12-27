@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Список дел</string>
+    <string name="description">Описание</string>
+    <string name="points">Приоритет</string>
+    <string name="channelDescription">description</string>
+    <string name="subjectDescription">description</string>
+    <string name="marks">Your marks</string>
+    <string name="choose_priority">Выберите приоритет</string>
+    <string name="common">Обычный</string>
+    <string name="high">Выcокий</string>
+    <string name="edit">Изменить</string>
+    <string name="cancel">Отмена</string>
+    <string name="remove">Удалить</string>
+    <string name="ok">ОК</string>
+    <string name="add_new_task">Добавить задачу</string>
+
+    <string-array name="priority">
+        <item>@string/common</item>
+        <item>@string/high</item>
+    </string-array>
+</resources>
