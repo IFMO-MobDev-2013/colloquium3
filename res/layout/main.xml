@@ -41,7 +41,8 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Tasks"
             android:id="@+id/titleText1"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"/>
 
     <ListView
             android:layout_width="fill_parent"
@@ -56,7 +57,8 @@
             android:text="SubTasks"
             android:id="@+id/titleText2"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"/>
 
     <ListView
             android:layout_width="fill_parent"

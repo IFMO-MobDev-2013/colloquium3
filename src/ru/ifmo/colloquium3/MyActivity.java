@@ -79,7 +79,7 @@ public class MyActivity extends Activity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = new Intent(MyActivity.this, EditTaskActivity.class);
                 intent.putExtra("type", 2);
-                intent.putExtra("id", tasks2.get(i).param[TaskItem.ID]);
+                intent.putExtra("id", Integer.parseInt(tasks2.get(i).param[TaskItem.ID]));
                 startActivityForResult(intent, 0);
             }
         });
