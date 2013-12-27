@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/linearLayout1"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/darkitem"
+              android:longClickable="false" android:clickable="false" android:minHeight="50dp">
+
+    <TextView
+            android:id="@+id/task"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:text="task"
+            android:layout_gravity="left|center_vertical" android:gravity="center_vertical|left"/>
+
+</LinearLayout>
